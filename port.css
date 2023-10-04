@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    width:100%;
+    height:1400px ;
+   /* background-color:#04032c;*/
+   background-image:linear-gradient(150deg,#3402b8,#3203b3,#0c0457);
+    
+}
+
+header{
+    background-color: #1d03826e;
+    height:60px ;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #00000039 solid 1px;
+}
+
+.logo{
+    font-family: Georgia, serif;
+    margin-left:35px;
+    font-size: 10px;
+    color: white;
+}
+ul{
+    display: flex;
+    
+}
+li { 
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size:12px;
+    list-style: none;
+    margin: 0 5px;
+    padding: 10px 15px;
+    
+}
+li a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover{
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px 5px 5px 5px;
+    color: black;
+}
+
+/*-----------------home---------------------*/
+.home{
+    width:90%;
+    height:200px;
+    margin-top:10%;
+    margin-left:80px;
+    color:white;
+    font-family:sans-serif;
+    display:flex;
+    justify-content:space-between;
+   
+}
+.home h1{
+    font-size: 50px;
+}
+.home img{
+
+    width:600px;
+    height:400px;
+}
+
+.pdf{
+    color:white;
+    margin-top: 5%;
+    margin-left:400px;
+    width:150px;
+    font-family:sans-serif;
+    text-align:center;
+    height:50px;
+   
+    
+}
+.pdf a{
+    text-decoration:none;
+    padding:15px;
+    border-radius:5px;
+    background-color:#4713cf;
+    color:white;
+    box-shadow: #9e87dc 0px 1px 18px 0px;
+
+}
+
+/*----------------------------aboute me---------------------*/
+.propreDemoi{
+    margin-top:20%;
+    width:100%;
+    height:300px;
+    color:white;
+    
+}
+.pR{
+    margin-left: 80px;
+    width: 250px;
+    padding:  20px 30px;
+    border-radius: 10px;
+    box-shadow: #150790 0px 1px 18px 0px;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    background-color: #0c0457;
+    
+
+
+}
+.carre{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display:flex;
+}
+
+.souscaree{
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    
+    border: solid black 1px;
+    background-color: #0c0457;
+    width: 500px;
+    height:200px;
+    margin:10px;
+    margin-left:25px;
+    color:white;
+}
